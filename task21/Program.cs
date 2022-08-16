@@ -1,0 +1,17 @@
+﻿Console.WriteLine("Введите координаты:");
+double x, y, z, x1, y1, z1, len;
+Console.Write("x:");
+x = Convert.ToDouble(Console.ReadLine());
+Console.Write("y:");
+y = Convert.ToDouble(Console.ReadLine());
+Console.Write("z:");
+z = Convert.ToDouble(Console.ReadLine());
+Console.Write("x1:");
+x1 = Convert.ToDouble(Console.ReadLine());
+Console.Write("y:");
+y1 = Convert.ToDouble(Console.ReadLine());
+Console.Write("z1:");
+z1 = Convert.ToDouble(Console.ReadLine());
+len = Math.Sqrt((x - x1) * (x - x1) + (y - y1) * (y - y1) + (z - z1) * (z - z1));
+Console.WriteLine("Расстояние между точками в 3D пространстве =>");
+Console.Write(len);
