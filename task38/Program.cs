@@ -40,4 +40,4 @@ double maxminelem(double[] array)
 double [] arr =CreateArrayRndInt(5,1,12);
 PrintArr(arr);
 double result = maxminelem(arr);
-Console.WriteLine($"{Math.Round(result,2)}");
+Console.WriteLine($"Разница между максимальным и минимальным числом = {Math.Round(result,2)}");
